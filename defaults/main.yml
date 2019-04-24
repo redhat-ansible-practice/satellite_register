@@ -1,0 +1,9 @@
+---
+# defaults file for satellite_register
+satellite_host: 
+activationkey: []
+sat_env: production
+subscription_organization: []
+sub_state: Present
+sub_pool: []
+

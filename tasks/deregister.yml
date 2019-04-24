@@ -1,0 +1,8 @@
+---
+
+  - name: Unregister "{{ ansible_hostname }}" From Satellite
+    redhat_subscription:
+      state: "{{ sub_state }}"
+      activationkey: "{{ activationkey }}"
+      org_id: "{{ subscription_organization }}"
+

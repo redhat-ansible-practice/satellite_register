@@ -1,0 +1,12 @@
+---
+# tasks file for satellite_register
+
+  - name: Register to Satellite
+    include_tasks: register.yml
+    when: sub_state == 'present'
+
+  - name: Unregister From Satellite
+    include_tasks: deregister.yml
+    when: sub_state == 'absent'
+
+    

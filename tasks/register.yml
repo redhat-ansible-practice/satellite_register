@@ -1,0 +1,18 @@
+---
+
+
+  - name: Install the Katello RPM from Satellite
+    yum:
+      name: "{{ satellite_host }}/pub/katello-ca-consumer-latest.noarch.rpm"
+      state: installed
+      validate_certs: no
+
+  - name: RedHat subscriptions
+    redhat_subscription:
+      state: "{{ sub_state }}"
+      activationkey: "{{ activationkey }}"
+      org_id: "{{ subscription_organization }}"
+      #autosubscribe: true
+      force_register: true
+      pool: "{{ sub_pool }}"
+
