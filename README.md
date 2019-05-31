@@ -12,10 +12,10 @@ Requirements
 Role Variables
 --------------
 ```
-satellite_host: "https://satellite6-lab.deadpool.od4apps.com"
-sat_key: jbosseap7
+satellite_host: "https://mysatellite.com
+sat_key: mykey
 sat_env: production
-sat_org: "ODFL-Lab"
+sat_org: "mylab"
 ```
 
 
