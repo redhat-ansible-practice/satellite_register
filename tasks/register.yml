@@ -1,6 +1,5 @@
 ---
 
-
   - name: Install the Katello RPM from Satellite
     yum:
       name: "{{ satellite_host }}/pub/katello-ca-consumer-latest.noarch.rpm"
