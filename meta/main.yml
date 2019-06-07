@@ -36,10 +36,10 @@ galaxy_info:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
   # platforms:
-    - name: EL
-  #   versions:
+      - name: EL
+       versions:
   #   - all
-      - 7
+        - 7
   # - name: SomePlatform
   #   versions:
   #   - all
