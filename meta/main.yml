@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Jonathan Lozada De La Matta
-  description: Register/Derister a host to Satellite
-  company: Red Hat
+  author: "Jonathan Lozada De La Matta"
+  description: "Register/Derister a host to Satellite"
+  company: "Red Hat"
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
